@@ -1,4 +1,4 @@
-# YatraPulse — Dynamic Forecast of Expected Time of Arrival (ETA)
+# YatraPulse - Dynamic Forecast of Expected Time of Arrival (ETA)
 
 **Smart India Hackathon 2026 · Problem Statement SIH26028**
 Theme: Smart Automation · Category: Software
