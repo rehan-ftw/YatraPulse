@@ -1,0 +1,27 @@
+# Local isolated MySQL data directory (never commit)
+.mysql-data/
+
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+.env
+.env.local
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Data (large raw datasets are not committed)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# OS / editor
+.DS_Store
+*.log
+
+# TS build info
+frontend/tsconfig.tsbuildinfo
