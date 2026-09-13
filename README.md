@@ -46,7 +46,7 @@ factors) are configurable in `backend/.env`. See
 ### Model-agnostic by design
 
 The ETA is produced behind an `ETAPredictor` interface. Today the active
-implementation is `DynamicETAPredictor`. Tomorrow an `MLPredictor` can be dropped
+implementation is `DynamicETAPredictor`. Tomorrow an `MLPredictor` (being trained) will be dropped 
 in **without changing the API or the passenger UI**.
 
 ## Train catalogue
