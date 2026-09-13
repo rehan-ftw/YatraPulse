@@ -201,10 +201,10 @@ scripts/        db.sh, run.sh
 docs/           demo-guide.md, DATA_SOURCES.md
 ```
 
-## Future work (ML)
+## ML in training phase
 
 The dataset layout and the `ETAPredictor` seam are designed so that the larger
-Kaggle / 312K-row delay datasets can later train an `MLPredictor` that slots in
+Kaggle / 312K-row delay, erail datasets being trained an `MLPredictor` that slots in
 behind the same API. See `docs/DATA_SOURCES.md`.
 
 ---
